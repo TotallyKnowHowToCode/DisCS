@@ -6,10 +6,15 @@ int xOver = 499;
 
 //Lawrence's playNote void here (replacement for Oliver's placeholder void)
 
-void playTone(int buzzer, unsigned int note, int len) {
-  tone(buzzer, note, len);
-}
+//void playTone(int buzzer, unsigned int note, int len) {
+  //tone(buzzer, note, len);
+//}
 
+playtone(speaker, song[pointerLoc] [0], song[pointerLoc][1]); {
+delay(song[pointerLoc][1]);
+delay(10);
+pointerLoc = pointer + 1;
+}
 void playSong(int startPos) {
   int inLoop = 0;
   int loopedFrom = 0;
@@ -26,6 +31,9 @@ void playSong(int startPos) {
     if (line[0] == "") { break; } else {
       if (line[0] == 0) {
         //Lawrence's other bit here
+    void playtone(int buzzer, unsigned int note, int len {
+      tone(buzzer, note [10,000], len [5000]);
+    }
       } else {
         //Harry's stuff here
       }
